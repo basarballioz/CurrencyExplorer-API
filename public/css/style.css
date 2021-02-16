@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/canvas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* NAVBAR */
+.navbar-header {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    float: none;
+    font-family: 'Russo One';
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background: linear-gradient(360deg, #1759bd80 30%, #3b95fd 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-center {
+    color: white;
+    font-weight: bold;
+}
+
+.input-group, #fields, #converter, #status  {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONVERTED RESULT BADGE */
+#convertedResult {
+    background-color: #343A40;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 36px;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    background-color: #343A40;
+    color: white;
+}
