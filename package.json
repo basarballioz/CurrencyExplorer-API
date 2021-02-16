@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "server": "ngrok http 3000"
+    "server": "ngrok http 3000",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
