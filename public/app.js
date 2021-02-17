@@ -29,6 +29,8 @@ let siteUrl = 'https://api.exchangeratesapi.io/latest?base=USD';
 //AJAX
 document.getElementById('convertedResult').innerText = '0.00 TRY';
 document.querySelector('#currencyName').addEventListener('keyup', fethCurrency);
+document.querySelector('#cur1').addEventListener('change', fethCurrency);
+document.querySelector('#cur2').addEventListener('change', fethCurrency);
 
 //Load Currencies
 function fethCurrency(event) {
