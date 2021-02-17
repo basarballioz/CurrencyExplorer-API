@@ -53,7 +53,7 @@ body {
 /* FOOTER */
 .footer {
     width: 100%;
-    height: 60px;
+    height: 36px;
     bottom: 0;
     font-size: 14px;
     line-height: 30px;
@@ -62,3 +62,38 @@ body {
     background-color: #343A40;
     color: white;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+        height: 60px;
+        bottom: 0;
+        font-size: 14px;
+        line-height: 30px;
+        position: absolute;
+        text-align: center;
+        background-color: #343A40;
+        color: white;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
