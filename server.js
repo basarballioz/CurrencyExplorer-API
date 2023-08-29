@@ -13,7 +13,7 @@ app.get("/api/exchange", async (req, res) => {
     const apiKey = process.env.API_KEY;
 
     const response = await axios.get(
-      `https://api.exchangeratesapi.io/latest?base=${cur1}&apiKey=${apiKey}`
+      `https://api.exchangeratesapi.io/latest?base=${cur1}&access_key=${apiKey}`
     );
     const currency = response.data;
 
