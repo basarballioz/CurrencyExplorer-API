@@ -48,8 +48,6 @@ function fethCurrency(event) {
             let cur2 = document.getElementById('cur2').value;
             document.getElementById('convertedResult').innerHTML = `${inputValue * currency.rates[cur2].toFixed(3) + ' '}` + cur2;
             document.getElementById('status').innerHTML = `<h6><span class="badge badge-primary">Lastly Updated: ${currency.date}</span></h6>`;
-
-            console.log(currency);
         }
     }
     xhr.send();
